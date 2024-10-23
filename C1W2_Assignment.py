@@ -290,7 +290,7 @@ else:
             value_below_pivot = M[j, row]
             M[j] = M[j] - value_below_pivot*M[row]
             
-    return M
+    M
             
 
 A = np.array([[1,2,3],[0,1,0], [0,0,5]])
